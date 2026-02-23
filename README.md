@@ -178,9 +178,3 @@ Snapmark/
     ├── GeometryHelpers.swift      CGPoint/CGRect extensions
     └── HitTesting.swift           Selection & resize handles
 ```
-
----
-
-## Author
-
-Built by [@18jad](https://github.com/18jad)
