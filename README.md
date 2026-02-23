@@ -14,9 +14,9 @@
   <img src="https://img.shields.io/badge/UI-SwiftUI%20%2B%20AppKit-purple?style=flat-square" alt="SwiftUI + AppKit">
 </p>
 
-<!-- <p align="center">
-  <img width="700" alt="Snapmark" src="" />
-</p> -->
+<p align="center">
+  <img width="700" alt="Snapmark" src="assets/homepage.png" />
+</p>
 
 ---
 
@@ -24,6 +24,10 @@
 
 ### Annotation Tools
 > 9 tools for quick image markup — shapes, text, arrows, blur, and more
+
+<p align="center">
+  <img width="700" alt="Editing" src="assets/editing.png" />
+</p>
 
 - **Select & Move** — click to select overlays, drag to move, use handles to resize
 - **Crop** — define a crop region with dimmed preview; Enter to apply, Esc to cancel
@@ -35,6 +39,19 @@
 - **Line** — stroke-only line between two points
 
 All overlays are **non-destructive** — the base image is never modified until export.
+
+---
+
+### Crop
+> Define a crop region with live preview
+
+<p align="center">
+  <img width="700" alt="Cropping" src="assets/cropping.png" />
+</p>
+
+- Drag to define the crop area — dimmed overlay shows what gets trimmed
+- Press **Enter** to apply or **Esc** to cancel
+- Works with all other overlays intact
 
 ---
 
@@ -73,6 +90,10 @@ All overlays are **non-destructive** — the base image is never modified until 
 
 ### Menu Bar
 > Quick access from the system menu bar
+
+<p align="center">
+  <img width="300" alt="Menu Bar" src="assets/quick-paste-edit-menu-bar.png" />
+</p>
 
 - Left-click the menu bar icon to open the app and paste from clipboard
 - Right-click for a context menu with options
