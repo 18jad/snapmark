@@ -123,6 +123,17 @@ All overlays are **non-destructive** — the base image is never modified until 
 
 ---
 
+## Installation
+
+Download the latest release from the [Releases page](https://github.com/18jad/snapmark/releases).
+
+```bash
+# After downloading and unzipping, remove the quarantine flag:
+xattr -cr /Applications/Snapmark.app
+```
+
+---
+
 ## Building from Source
 
 ```bash
