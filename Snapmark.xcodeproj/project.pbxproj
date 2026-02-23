@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B22636B7E0EE2FB565CED41 /* ExportRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C370D5061CB99DD95BB613 /* ExportRenderer.swift */; };
+		1BEB139DDD2C36A08F4EB296 /* CanvasNSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA5B3185F3A0EBA363D5D4 /* CanvasNSView.swift */; };
+		299AF19A543A62645A4E268A /* Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BEBDB6DC88467E86208BC1 /* Overlay.swift */; };
+		35C94CBE80399A9AB26F5A7D /* HitTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F7763D5AAE4FE439F4614B /* HitTesting.swift */; };
+		36C8594250202F2FA960F992 /* GeometryHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B004645CAD8A4B2513D70AE /* GeometryHelpers.swift */; };
+		44A751FAB9EEC647BFB8004A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF12A18AB3FC97EAA83CB00 /* AppDelegate.swift */; };
+		4706B070704284CAF3116F9E /* SnapmarkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33946747D63007481612246B /* SnapmarkApp.swift */; };
+		4C3D29F108A910C26DE961CA /* ToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D116D64308834331A5A5BBFA /* ToolbarView.swift */; };
+		5A24C62911385802FBC089D8 /* InspectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44B5B56C06BFDB1719C39D8 /* InspectorView.swift */; };
+		5D4F702C4BD2BB9475139BA6 /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4884735F55F6303DAA92B260 /* Tool.swift */; };
+		7B74E55256C313D852542B78 /* AppCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4A2B0EA2864F339B4A545D /* AppCommands.swift */; };
+		81C4DD80582C7E37903D7EA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46CFBC80D27C52A626EEA53 /* Assets.xcassets */; };
+		97C190DAE0FD42F65D8D8BD6 /* CanvasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC220FF771BC232EA5D2794 /* CanvasViewModel.swift */; };
+		99ED3098C2A8684B9C014B37 /* CommandBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107F5E934CD37D1E293652DF /* CommandBarView.swift */; };
+		C8ECAE55107E986FBB024F6A /* CanvasRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF7EBD58C9EA8802091499E /* CanvasRepresentable.swift */; };
+		D00752C2EB485E9095F37710 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7F9CE3B2550E6E0D96DF7E /* ContentView.swift */; };
+		EB3C27568BB1F25FF015DF1C /* BlurRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC69F49297F79B624D4CC3C /* BlurRenderer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02F7763D5AAE4FE439F4614B /* HitTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitTesting.swift; sourceTree = "<group>"; };
+		05C370D5061CB99DD95BB613 /* ExportRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportRenderer.swift; sourceTree = "<group>"; };
+		107F5E934CD37D1E293652DF /* CommandBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandBarView.swift; sourceTree = "<group>"; };
+		12BEBDB6DC88467E86208BC1 /* Overlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlay.swift; sourceTree = "<group>"; };
+		1B61D7D24D53878BA0C108DC /* Snapmark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapmark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33946747D63007481612246B /* SnapmarkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapmarkApp.swift; sourceTree = "<group>"; };
+		3A4A2B0EA2864F339B4A545D /* AppCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCommands.swift; sourceTree = "<group>"; };
+		4884735F55F6303DAA92B260 /* Tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
+		50FA5B3185F3A0EBA363D5D4 /* CanvasNSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasNSView.swift; sourceTree = "<group>"; };
+		6AC69F49297F79B624D4CC3C /* BlurRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurRenderer.swift; sourceTree = "<group>"; };
+		8B004645CAD8A4B2513D70AE /* GeometryHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryHelpers.swift; sourceTree = "<group>"; };
+		9AC220FF771BC232EA5D2794 /* CanvasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewModel.swift; sourceTree = "<group>"; };
+		BF7F9CE3B2550E6E0D96DF7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D116D64308834331A5A5BBFA /* ToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarView.swift; sourceTree = "<group>"; };
+		EEF7EBD58C9EA8802091499E /* CanvasRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasRepresentable.swift; sourceTree = "<group>"; };
+		F44B5B56C06BFDB1719C39D8 /* InspectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectorView.swift; sourceTree = "<group>"; };
+		F46CFBC80D27C52A626EEA53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBF12A18AB3FC97EAA83CB00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		5396BDE18EF97CB56C6A7BDD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8B004645CAD8A4B2513D70AE /* GeometryHelpers.swift */,
+				02F7763D5AAE4FE439F4614B /* HitTesting.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		61708C1AE92D97251EA5D464 /* Rendering */ = {
+			isa = PBXGroup;
+			children = (
+				6AC69F49297F79B624D4CC3C /* BlurRenderer.swift */,
+				05C370D5061CB99DD95BB613 /* ExportRenderer.swift */,
+			);
+			path = Rendering;
+			sourceTree = "<group>";
+		};
+		7701581A6D7746D127197327 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				107F5E934CD37D1E293652DF /* CommandBarView.swift */,
+				BF7F9CE3B2550E6E0D96DF7E /* ContentView.swift */,
+				F44B5B56C06BFDB1719C39D8 /* InspectorView.swift */,
+				D116D64308834331A5A5BBFA /* ToolbarView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		9283220A6A06E02D4C474C67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B61D7D24D53878BA0C108DC /* Snapmark.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94C01F97CE94E18701C119F3 = {
+			isa = PBXGroup;
+			children = (
+				EEF457409298E30F208E47AF /* Snapmark */,
+				9283220A6A06E02D4C474C67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C97CA8B5A26EA31FC2758799 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9AC220FF771BC232EA5D2794 /* CanvasViewModel.swift */,
+				12BEBDB6DC88467E86208BC1 /* Overlay.swift */,
+				4884735F55F6303DAA92B260 /* Tool.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E38AFFC5DF6B1E33285C3FEF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3A4A2B0EA2864F339B4A545D /* AppCommands.swift */,
+				FBF12A18AB3FC97EAA83CB00 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EEF457409298E30F208E47AF /* Snapmark */ = {
+			isa = PBXGroup;
+			children = (
+				E38AFFC5DF6B1E33285C3FEF /* App */,
+				F4AF873896F5A5310955E9F1 /* Canvas */,
+				C97CA8B5A26EA31FC2758799 /* Models */,
+				61708C1AE92D97251EA5D464 /* Rendering */,
+				7701581A6D7746D127197327 /* UI */,
+				5396BDE18EF97CB56C6A7BDD /* Utilities */,
+				F46CFBC80D27C52A626EEA53 /* Assets.xcassets */,
+				33946747D63007481612246B /* SnapmarkApp.swift */,
+			);
+			path = Snapmark;
+			sourceTree = "<group>";
+		};
+		F4AF873896F5A5310955E9F1 /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				50FA5B3185F3A0EBA363D5D4 /* CanvasNSView.swift */,
+				EEF7EBD58C9EA8802091499E /* CanvasRepresentable.swift */,
+			);
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAB69A7E5F85BFF632DC7234 /* Snapmark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4957698B6A435FBC55D52920 /* Build configuration list for PBXNativeTarget "Snapmark" */;
+			buildPhases = (
+				DDCFB77B3AE3E9F0CA297E1A /* Sources */,
+				87F381BD71227C5FB3EF3D35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snapmark;
+			packageProductDependencies = (
+			);
+			productName = Snapmark;
+			productReference = 1B61D7D24D53878BA0C108DC /* Snapmark.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2F49ACA16C825988E01DCCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AAB69A7E5F85BFF632DC7234 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A4E37F94166445B93B45D554 /* Build configuration list for PBXProject "Snapmark" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 94C01F97CE94E18701C119F3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAB69A7E5F85BFF632DC7234 /* Snapmark */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87F381BD71227C5FB3EF3D35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C4DD80582C7E37903D7EA0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDCFB77B3AE3E9F0CA297E1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B74E55256C313D852542B78 /* AppCommands.swift in Sources */,
+				44A751FAB9EEC647BFB8004A /* AppDelegate.swift in Sources */,
+				EB3C27568BB1F25FF015DF1C /* BlurRenderer.swift in Sources */,
+				1BEB139DDD2C36A08F4EB296 /* CanvasNSView.swift in Sources */,
+				C8ECAE55107E986FBB024F6A /* CanvasRepresentable.swift in Sources */,
+				97C190DAE0FD42F65D8D8BD6 /* CanvasViewModel.swift in Sources */,
+				99ED3098C2A8684B9C014B37 /* CommandBarView.swift in Sources */,
+				D00752C2EB485E9095F37710 /* ContentView.swift in Sources */,
+				0B22636B7E0EE2FB565CED41 /* ExportRenderer.swift in Sources */,
+				36C8594250202F2FA960F992 /* GeometryHelpers.swift in Sources */,
+				35C94CBE80399A9AB26F5A7D /* HitTesting.swift in Sources */,
+				5A24C62911385802FBC089D8 /* InspectorView.swift in Sources */,
+				299AF19A543A62645A4E268A /* Overlay.swift in Sources */,
+				4706B070704284CAF3116F9E /* SnapmarkApp.swift in Sources */,
+				5D4F702C4BD2BB9475139BA6 /* Tool.swift in Sources */,
+				4C3D29F108A910C26DE961CA /* ToolbarView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1AE86225950A3F44310AF460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Snapmark/Snapmark.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Snapmark;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.snapmark.app;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C0C76B7EB92A66146152308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		62CB5EA8C35F3A78E885CF69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		F8EA23FABCA7A0F1FA680801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Snapmark/Snapmark.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Snapmark;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.snapmark.app;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4957698B6A435FBC55D52920 /* Build configuration list for PBXNativeTarget "Snapmark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE86225950A3F44310AF460 /* Debug */,
+				F8EA23FABCA7A0F1FA680801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A4E37F94166445B93B45D554 /* Build configuration list for PBXProject "Snapmark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C0C76B7EB92A66146152308 /* Debug */,
+				62CB5EA8C35F3A78E885CF69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2F49ACA16C825988E01DCCC /* Project object */;
+}
